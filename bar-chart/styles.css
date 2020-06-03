@@ -1,0 +1,45 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+  }
+  #container {
+    display: flex;
+    justify-content: center;
+  }
+  text {
+    font-size: 12px;
+    fill: #fff;
+  }
+  
+  .grid path {
+    stroke-width: 0;
+  }
+  
+  .grid .tick line {
+    stroke: #9FAAAE;
+    stroke-opacity: 0.3;
+  }
+  
+  text.divergence {
+    font-size: 14px;
+    fill: #2F4A6D;
+  }
+  
+  text.value {
+    font-size: 14px;
+  }
+  
+  text.title {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  text.label {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  text.source {
+    font-size: 10px;
+  }
